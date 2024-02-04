@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "build": "npm install; npm run build"
   },
   "repository": {
@@ -20,7 +20,9 @@
   "homepage": "https://github.com/ViktorGo86/test_api#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
+    "json-serve": "^0.1.0"
+  },
+  "devDependencies": {
     "json-server": "^1.0.0-alpha.23"
   }
 }
